@@ -9,4 +9,4 @@ Ticker.prototype = {
 };
 
 var ticker = new Ticker();
-setInterval(ticker.tick, 1000);
+setInterval(ticker.tick.bind(ticker), 1000);
