@@ -1,0 +1,43 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+
+.flights {
+    -webkit-animation: fade-in 0.3s linear; /* Safari 4+ */
+    -moz-animation: fade-in 0.3s linear; /* Fx 5+ */
+    -o-animation: fade-in 0.3s linear; /* Opera 12+ */
+    animation: fade-in 0.3s linear; /* IE 10+, Fx 29+ */
+    margin-right: 4em;
+    margin-left: 4em;
+    margin-top: 10em;
+}
+
+
+.flightTable {
+    background-image: linear-gradient(to bottom right, #66009e, #00c0dd);
+}
+
+.flightCard {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color:white;
+    height: 5em;
+    margin-top: 2px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: calc(6px + 1vmin);
+}
+
+.flightCard p {
+    flex:1 1 auto;
+    width: 12em;
+}
+
+.flightCardTime {
+    text-align: left;
+}
