@@ -13,12 +13,12 @@
 
 В проекте информация о рейсах хранится в файле json.js.
 
-Для запуска
+Для запуска в папке airportsite запустить:
 
 ```javascript
 npm install
 
-npm start (npm run serve)
+npm start
 ```
 
 Решение задачи 2.
