@@ -21,8 +21,8 @@ npm install
 npm start
 ```
 
-<img src="https://github.com/DariaHighfly/plane-schedule/blob/master/imag/image_1.png" width="100%" height="100%">
-<img src="https://github.com/DariaHighfly/plane-schedule/blob/master/imag/image_2.png" width="100%" height="100%">
+<img src="https://github.com/DariaHighfly/plane-schedule/blob/master/img/image_1.png" width="100%" height="100%">
+<img src="https://github.com/DariaHighfly/plane-schedule/blob/master/img/image_2.png" width="100%" height="100%">
 
 
 Решение задачи 2.
